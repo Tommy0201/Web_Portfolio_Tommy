@@ -49,13 +49,13 @@ setTimeout(() => {
 introTypeText(textToType1,textToType2,textToType3)
 
 
-// // Add a mouseover event listener to the element
-// typedTextElement.addEventListener('mouseover', function() {
-//   // Check if the text content is "Tommy Nguyen"
-//   if (this.textContent === 'Tommy Nguyen') {
-//     introTypeText(textToType1,textToType2,textToType3);
-//   }
-// });
+// Add a mouseover event listener to the element
+typedTextElement.addEventListener('mouseover', function() {
+  // Check if the text content is "Tommy Nguyen"
+  if (this.textContent === 'Tommy Nguyen') {
+    introTypeText(textToType1,textToType2,textToType3);
+  }
+});
 
 
 
