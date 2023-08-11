@@ -42,7 +42,7 @@ setTimeout(() => {
   }, 5600);
 setTimeout(() => {
     typedTextElement.textContent="Tommy Nguyen";
-  }, 10400);
+  }, 12000);
 }
 
 
