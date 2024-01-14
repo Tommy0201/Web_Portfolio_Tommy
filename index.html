@@ -29,7 +29,7 @@
 					<li><a href="#portfolio">Projects</a></li>
 					<li><a href="#experience">Experience</a></li>
 					<li><a href="#contact">Contact</a></li>
-					<li><a href="images/VU Resume Internship _ Oct 2023.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+					<li><a href="images/Resume Jan 2024.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
 				</ul>
 			</nav>
 
@@ -104,16 +104,15 @@
 						  <img src="images/VU_Logo.jpg" alt="School Logo" class="school-logo">
 						  <div class="education-details">
 							<p>Major: Computer Science & Statistics</p>
-							<p>GPA: 4.0</p>
+							<p>GPA: 3.96</p>
 							<p>Honors Student</p>
 							<p>Veritas Scholarship, Presidential Scholar Alternate</p>
 						  </div>
 						</div>
 						<div class="education-right">
 						  <p class="education-path">
-							Among the classes I have taken, I am most interested in Discrete Structure and Analysis of Algorithm. I was also the highest scorer in these two classes. In addition, I am capable of handling data, 
-							thinkining strategically and systematically. Hence, I take Statistics as my second major aside from Computer Science. The first project that demonstrates the knowledge I have learnt through 
-							both majors is my Film Recommendation System project. Feel free to check it out <a href="#portfolio">below</a>!
+							Exploring various classes during my academic journey, I discovered a profound interest in Data Science and Discrete Structures, where I achieved the highest scores. My ability to handle data, coupled with strategic and systematic thinking, led me to pursue Statistics as my second major alongside Computer Science. 
+							My current work focuses on Natural Language Processing in which I am working to fine-tune preexiting translation models. Additionally, building recommendation algorithms excites me as reflected through my Film Recommendation System. Feel free to check it out <a href="#portfolio">below</a>!
 						  </p>
 						  <button id="course-button">View Courses</button>
 						  <div id="course-container" class="hidden">
@@ -153,7 +152,6 @@
 									<td>ACS1001: Moderns</td>
 									</tr>
 									<tr>
-									
 									<td>PHI1000: Knowledge, Reality, Self</td>
 									</tr>
 									<tr>
@@ -170,6 +168,30 @@
 									<tr>
 									<td>STAT 4310: Stats Method</td>
 									</tr>
+									<th colspan="3">2023-2024</th>
+									<tr>
+										<th rowspan="6" class="Semester">Fall</th>
+										<td>ECO 1001: Intro to Micro</td>
+										</tr>
+									<tr>
+										<td>ETH 2050: Ethics The Good Life</td>
+										</tr>
+										<tr>
+										
+										<td>STAT 4380: Data Science</td>
+										</tr>
+										<tr>
+										
+										<td>PHY 2410/11: University Physics Mechanics</td>
+										</tr>
+										<tr> 
+										<td>CSC 2400: Computer System I</td>
+										</tr>
+										<tr>
+										<td>CSC 1800: Organization of Programming Languages</td>
+										</tr>									
+
+
 							</table>
 							</div>
 						  </div>
@@ -184,15 +206,34 @@
 				<h2 class="section__title--projects">My Projects</h2>
 				<p class="section__subtitle--projects"></p>
 				<div class="project-one">
+					<h4 class="project-one__title">Exploring Relationship of Word Education and Unemployment</h4>
+					<p class="project-one__subtitle">
+						<span id="project-intro">A data science project that seeks to explore potential correlation between education rate and unemployment rate around the world.</span>
+						<br>
+						<br>
+						<br> <strong>Skills:</strong> Data preprocessing, Data wrangling, Data visulization.
+						<br> <strong>Programming Language:</strong> R and code in R studio.
+						<br> <strong>Libraries</strong>: dply, ggplot2, tydr, rvest, stringr, plotly.
+					</p>
+					<a href="https://github.com/Tommy0201/World-Education-Unemployment" target="_blank" class="project-one__button">
+						<i class="fab fa-github"></i> 
+						View Code
+					</a>
+	
+					<a href="https://github.com/Tommy0201/World-Education-Unemployment" target="_blank" class="project-one__item">
+						<img src="images/data science proj.png" class="project-one__image">
+					</a>
+				</div>
+				<div class="project-one">
 					<h4 class="project-one__title">Film Recommendation System</h4>
 					<p class="project-one__subtitle">
-						<span id="project-intro">A simple recommendation system that collect users' ratings of movies and the movies' genres and then apply k-mean clustering to predict any user' potential recommended movies list</span>
+						<span id="project-intro">A simple recommendation system that collect users' ratings of movies and the movies' genres and then apply k-mean clustering to predict any user' potential recommended movies list.</span>
 						<br>
 						<br>
-						<br> <strong>Linear Algebra Algorithm:</strong> K-mean Clustering 
-						<br> <strong>Methods:</strong> clustering and elbow method 
-						<br> <strong>Python libraries</strong> (for data preprocessing): panda and numpy 
-						<br> <strong>Software machine learning library</strong> (for clustering, preprocessing and decomposition): sklearn.
+						<br> <strong>Linear Algebra Algorithm:</strong> K-mean Clustering. 
+						<br> <strong>Methods:</strong> clustering and elbow method. 
+						<br> <strong>Python libraries</strong>: panda and numpy. 
+						<br> <strong>Software machine learning library</strong>: sklearn.
 					</p>
 					<a href="https://github.com/Tommy0201/Film_Recommendation_Using_Kmeans" target="_blank" class="project-one__button">
 						<i class="fab fa-github"></i> 
@@ -245,12 +286,14 @@
 						  <span class="author">(May, 2023 - present)</span>
 						</p>
 						<ol>
-						  <li>Created machine-readable datasets that serve as valuable resources for developers to build NLP tools for Igbo and Nigerian 
-							Pidgin (two under-resourced African languages)</li> 
-						  <li>Built a web scraper using “BeautifulSoup” (Python library) and concurrent programming; collected 2,000,000+ text data from 
-							credible sources (BBC, TedTalk).</li> 
-						  <li> Preprocessed, cleaned, and analyzed the dataset, yielding 116,884 Igbo sentences and 121,266 Nigerian Pidgin sentences.</li>
-						  <li>Utilized ChatGPT API, using text-davinci-03 engine to annotate ~ 70,000 sentences.</li>
+						  <li>Fine-tuned preexisting translation models using the self-researched and curated datasets in Igbo and Nigerian Pidgin; currently 
+							working to improve translation models’ translation accuracy from these Nigerian languages to English.</li>
+						  <li>Developed machine-readable datasets as valuable resources for developers working on Natural Language Processing tools for 
+							Igbo and Nigerian Pidgin, addressing the challenges faced by these under-resourced African languages.</li>
+						  <li>Implemented a web scraper using the "BeautifulSoup" Python library and concurrent programming techniques, extracting over 
+							2,000,000 text data from reputable sources such as BBC and TedTalk.</li>
+	                      <li>Preprocessed and analyzed the dataset, resulting in 116,884 Igbo sentences and 121,266 Nigerian Pidgin sentences; applied the 
+							ChatGPT API to annotate approximately 70,000 sentences.</li>
 						</ol>
 					  </header>
 					</article>
@@ -270,10 +313,11 @@
 						  <span class="author">(Jan, 2023 - April, 2023)</span>
 						</p>
 						<ol>
-						  <li>Improved the text-generation of AMR-system to make it more human-like</li>
-						  <li>Conducted literature review on Natural Language Processing, AMR-to-text generation, and "translationese".</li>
+						  <li>Enhanced the text-generation capabilities of AMR-system, making its output to be more human-like</li>
+						  <li>Employed Python and Jupiter Notebook to identify the differences between 58000+ computer-generated and human-generated 
+							sentences and helped automate the testing of these differences over large datasets</li>
 						  <li>Utilized Python and Jupyter Notebook to identify the differences between 58000+ computer-generated and human-generated sentences and helped automate the testing of these differences over large datasets</li>
-						  <li>Suggested learning of sarcasm and mathematical expressions to enhance the AMR-system; co-authored a 12-page research report.</li>
+						  <li>Suggested learning sarcasm and mathematical expressions to enhance the AMR-system; co-authored a 12-page research report</li>
 						</ol>
 					  </header>
 					</article>
@@ -290,7 +334,7 @@
 							<hr />
 							<h3>Contact</h3>
 							<ul class="address">
-								<li>862 E. Lancaster Ave, Villanova, PA, 19085</li>
+								<li>800 E. Lancaster Ave, Villanova, PA, 19085</li>
 								<li>484-620-7355</li>
 							</ul>
 							<hr />
