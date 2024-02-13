@@ -22,14 +22,14 @@ function typeText(text, index) {
 }
 }
 function reTypeText(text,index) {
-    typedTextElement.textContent = '';
+    typedTextElement.textContent = ' ';
     setTimeout(() => {
         typeText(text, index);
       }, 70); 
 }
 
 function introTypeText(textToType1,textToType2,textToType3) {
-  typedTextElement.textContent="";
+  typedTextElement.textContent=" ";
 setTimeout(() => {
   typeText(textToType1,0);
 },50)

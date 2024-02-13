@@ -2585,7 +2585,6 @@ outline-offset: 6px;
   }
   .education-path a{
 	transition: background-color 0.2s ease-in-out;
-	/* color: #fde0a9e0; */
 	color: floralwhite;
   }
 
@@ -2630,11 +2629,7 @@ outline-offset: 6px;
 	justify-content: center;
 	align-items: center;
 	z-index: 9999; 
-  }
-  
-  #course-sheet {
-	background-color: #fff; /* Set the background color of the course sheet */
-	padding: 20px;
+	border-radius: 5px;
   }
   
   #course-sheet {
@@ -2646,8 +2641,11 @@ outline-offset: 6px;
 	padding: 20px;
 	border: 1px solid #ccc;
 	z-index: 99;
-	/* max-width: 400px; */
+	max-width: 80%; /* Limit the maximum width of the course sheet */
+	max-height: 80%; /* Limit the maximum height of the course sheet */
+	overflow: auto; /* Add scroll bar when content exceeds the container height */
 	color: black;
+	border-radius:10px;
   }
   
   #course-sheet h2 {
@@ -2694,7 +2692,12 @@ outline-offset: 6px;
 	display: none;
   }
   
-
+@media screen and (max-width: 600px) {
+	#course-sheet {
+		max-width: 90%;
+		max-height: 90%;
+	}
+}
   /* Projects */
 .projects {
     background-color: var(--clr-dark);
@@ -2945,3 +2948,4 @@ ul.address li {
 	text-align: left;
 	margin-left: 28%;
 }
+
