@@ -2697,8 +2697,17 @@ outline-offset: 6px;
   #course-sheet td {
     border: 2.5px solid #352821;
     padding: 5px;
+    border: 5px double #352821;
 }
-
+ #course-sheet .Semester {
+	width: 15%;
+ }
+ #course-sheet .course-code{
+	width: 28%;
+ }
+ #course-sheet .course-name {
+	width: 60%;
+ }
 .hidden {
 	display: none;
   }

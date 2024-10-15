@@ -26,8 +26,8 @@
 				<ul class="container">
 					<li><a href="#top">Home</a></li>
 					<li><a href="#education">Education</a></li>
-					<li><a href="#portfolio">Projects</a></li>
 					<li><a href="#experience">Experience</a></li>
+					<li><a href="#portfolio">Projects</a></li>
 					<li><a href="#contact">Contact</a></li>
 					<li><a href="images/VU Resume April 2024.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
 				</ul>
@@ -92,8 +92,10 @@
 				</div>
 			</article>
 
-		<!-- Education -->
+		<!-- Main Content -->
 		<div class="VU-background-image">
+
+		<!-- Education -->
 			<article id="education" class="wrapper style2">
 				<div class="container">
 					<header>
@@ -114,85 +116,14 @@
 							Exploring various classes during my academic journey, I discovered a profound interest in Data Science and Discrete Structures, where I achieved the highest scores. My ability to handle data, coupled with strategic and systematic thinking, led me to pursue Statistics as my second major alongside Computer Science. 
 							My current work focuses on Natural Language Processing in which I am working to fine-tune preexiting translation models. Additionally, building recommendation algorithms excites me as reflected through my Film Recommendation System. Feel free to check it out <a href="#portfolio">below</a>!
 						  </p>
+				<!--Courses-->
 						  <button id="course-button">View Courses</button>
 						  <div id="course-container" class="hidden">
 							<div id="course-sheet" class="hidden">
 								<h2>Courses</h2>
 								<ul id="course-list"></ul>
-								<table>
-									<tr>
-									<th colspan="3">2022-2023</th>
-									</tr>
-									<tr>
-									<th rowspan="6" class="Semester">Fall</th>
-									<td>ACS1000: Ancients</td>
-									</tr>
-									<tr>
-									
-									<td>THL1000: Global Religious Experience</td>
-									</tr>
-									<tr>
-									
-									<td>HIS 1165: Global Migration</td>
-									</tr>
-									<tr>
-									
-									<td>CSC 1052: Data Structure and Algorithms II</td>
-									</tr>
-									<tr>
-									
-									<td>CSC 1300: Discrete Structure</td>
-									</tr>
-									<tr>
-									
-									<td>CSC 1990: Enrichment Seminar in Computing</td>
-									</tr>
-									<tr>
-									<th rowspan="6" class="Semester">Spring</th>
-									<td>ACS1001: Moderns</td>
-									</tr>
-									<tr>
-									<td>PHI1000: Knowledge, Reality, Self</td>
-									</tr>
-									<tr>
-									
-									<td>CSC 1700: Analysis of Algorithms</td>
-									</tr>
-									<tr>
-									
-									<td>CSC 2053: Platform Based Computing</td>
-									</tr>
-									<tr> 
-									<td>MAT 2400: Linear Algebra for Computing</td>
-									</tr>
-									<tr>
-									<td>STAT 4310: Stats Method</td>
-									</tr>
-									<th colspan="3">2023-2024</th>
-									<tr>
-										<th rowspan="6" class="Semester">Fall</th>
-										<td>ECO 1001: Intro to Micro</td>
-										</tr>
-									<tr>
-										<td>ETH 2050: Ethics The Good Life</td>
-										</tr>
-										<tr>
-										
-										<td>STAT 4380: Data Science</td>
-										</tr>
-										<tr>
-										
-										<td>PHY 2410/11: University Physics Mechanics</td>
-										</tr>
-										<tr> 
-										<td>CSC 2400: Computer System I</td>
-										</tr>
-										<tr>
-										<td>CSC 1800: Organization of Programming Languages</td>
-										</tr>									
-
-
-							</table>
+								 <div id="table-container"></div>
+						
 							</div>
 						  </div>
 						  
@@ -200,8 +131,64 @@
 					  </section>
 				</div>
 			</article>
+		
+		<!-- Experience -->
+			<article id= "experience" class="container-experience-cards">   
+				<h2 class="section__title--experience">Work & Research</h2>     
+				<div class="col gaap aos-init aos-animate" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="500"> 
+					<div class="card1">
+					<img src="images/web-scraper-pic.png" class="featured-image">
+					<article class="card-body">
+						<header>
+						<div class="title">
+							<h3>Research Assistant</h3>
+						</div>
+						<p class="meta">
+							<span class="pre-heading">Villanova, PA</span><br>
+							<span class="author">(May, 2023 - present)</span>
+						</p>
+						<ol>
+							<li>Fine-tuned preexisting translation models using the self-researched and curated datasets in Igbo and Nigerian Pidgin; currently 
+							working to improve translation models’ translation accuracy from these Nigerian languages to English.</li>
+							<li>Developed machine-readable datasets as valuable resources for developers working on Natural Language Processing tools for 
+							Igbo and Nigerian Pidgin, addressing the challenges faced by these under-resourced African languages.</li>
+							<li>Implemented a web scraper using the "BeautifulSoup" Python library and concurrent programming techniques, extracting over 
+							2,000,000 text data from reputable sources such as BBC and TedTalk.</li>
+							<li>Preprocessed and analyzed the dataset, resulting in 116,884 Igbo sentences and 121,266 Nigerian Pidgin sentences; applied the 
+							ChatGPT API to annotate approximately 70,000 sentences.</li>
+						</ol>
+						</header>
+					</article>
+					</div>
+				</div>
+							
+				<div class="col gaap aos-init aos-animate" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400"> 
+					<div class="card1">
+					<img src="images/Text_Differences.png" class="featured-image">
+					<article class="card-body">
+						<header>
+						<div class="title">
+							<h3>Research Assistant</h3>
+						</div>
+						<p class="meta">
+							<span class="pre-heading">Villanova, PA</span><br>
+							<span class="author">(Jan, 2023 - April, 2023)</span>
+						</p>
+						<ol>
+							<li>Enhanced the text-generation capabilities of AMR-system, making its output to be more human-like</li>
+							<li>Employed Python and Jupiter Notebook to identify the differences between 58000+ computer-generated and human-generated 
+							sentences and helped automate the testing of these differences over large datasets</li>
+							<li>Utilized Python and Jupyter Notebook to identify the differences between 58000+ computer-generated and human-generated sentences and helped automate the testing of these differences over large datasets</li>
+							<li>Suggested learning sarcasm and mathematical expressions to enhance the AMR-system; co-authored a 12-page research report</li>
+						</ol>
+						</header>
+					</article>
+					</div>
+				</div>
+						
+			</article>
 
-		 <!-- Portfolio -->
+		<!-- Portfolio -->
 			<article id="portfolio" class="wrapper style3">
 				<h2 class="section__title--projects">My Projects</h2>
 				<p class="section__subtitle--projects"></p>
@@ -271,60 +258,9 @@
 				</div>
 			</article>
 
-			<article id= "experience" class="container-experience-cards">   
-				<h2 class="section__title--experience">Work & Research</h2>     
-				<div class="col gaap aos-init aos-animate" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="500"> 
-				  <div class="card1">
-					<img src="images/web-scraper-pic.png" class="featured-image">
-					<article class="card-body">
-					  <header>
-						<div class="title">
-						  <h3>Research Assistant</h3>
-						</div>
-						<p class="meta">
-						  <span class="pre-heading">Villanova, PA</span><br>
-						  <span class="author">(May, 2023 - present)</span>
-						</p>
-						<ol>
-						  <li>Fine-tuned preexisting translation models using the self-researched and curated datasets in Igbo and Nigerian Pidgin; currently 
-							working to improve translation models’ translation accuracy from these Nigerian languages to English.</li>
-						  <li>Developed machine-readable datasets as valuable resources for developers working on Natural Language Processing tools for 
-							Igbo and Nigerian Pidgin, addressing the challenges faced by these under-resourced African languages.</li>
-						  <li>Implemented a web scraper using the "BeautifulSoup" Python library and concurrent programming techniques, extracting over 
-							2,000,000 text data from reputable sources such as BBC and TedTalk.</li>
-	                      <li>Preprocessed and analyzed the dataset, resulting in 116,884 Igbo sentences and 121,266 Nigerian Pidgin sentences; applied the 
-							ChatGPT API to annotate approximately 70,000 sentences.</li>
-						</ol>
-					  </header>
-					</article>
-				  </div>
-				</div>
-						  
-				<div class="col gaap aos-init aos-animate" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400"> 
-				  <div class="card1">
-					<img src="images/Text_Differences.png" class="featured-image">
-					<article class="card-body">
-					  <header>
-						<div class="title">
-						  <h3>Research Assistant</h3>
-						</div>
-						<p class="meta">
-						  <span class="pre-heading">Villanova, PA</span><br>
-						  <span class="author">(Jan, 2023 - April, 2023)</span>
-						</p>
-						<ol>
-						  <li>Enhanced the text-generation capabilities of AMR-system, making its output to be more human-like</li>
-						  <li>Employed Python and Jupiter Notebook to identify the differences between 58000+ computer-generated and human-generated 
-							sentences and helped automate the testing of these differences over large datasets</li>
-						  <li>Utilized Python and Jupyter Notebook to identify the differences between 58000+ computer-generated and human-generated sentences and helped automate the testing of these differences over large datasets</li>
-						  <li>Suggested learning sarcasm and mathematical expressions to enhance the AMR-system; co-authored a 12-page research report</li>
-						</ol>
-					  </header>
-					</article>
-				  </div>
-				</div>
-						
-			</article>
+
+
+
 		</div>
 
 		<!-- Contact -->
@@ -369,6 +305,7 @@
 			<script src="assets/js/additional.js"></script>
 			<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 			<script src="assets/js/courses.js"></script>
+			<script src="assets/js/tablegenerate.js"></script>
 			<script>
 				AOS.init();
 			  </script>
