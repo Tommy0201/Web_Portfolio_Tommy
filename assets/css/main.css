@@ -3115,16 +3115,94 @@ p.project-one__subtitle.span#project-intro, span#project-intro{
 }
 
 
-
-
-
+/* General Styling */
 ul.address {
-	list-style-type: none;
-  }
-
-ul.address li {
-	font-size: larger;
-	text-align: left;
-	margin-left: 28%;
+    list-style-type: none;
 }
 
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Ensure the form takes full width */
+}
+
+.form-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#message {
+    min-height: 100px;
+    resize: vertical;
+}
+
+/* Flex Layout with Custom Column Widths */
+.wrapper.style4 .container.medium {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Custom widths for each column */
+.wrapper.style4 .container.medium .col-contact {
+    flex-basis: 25%; 
+}
+
+.wrapper.style4 .container.medium .col-social {
+    flex-basis: 20%;
+}
+
+.wrapper.style4 .container.medium .col-form {
+    flex-basis: 35%; 
+}
+
+.wrapper.style4 .container.medium .col-form-actions {
+    flex-basis: 15%;
+}
+
+/* Form Actions Column */
+.form-actions-col {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+/* Button actions */
+.form-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+	padding: 50% 25%;
+	height: max-content;
+	
+}
+
+.form-actions input[type="submit"],
+.form-actions input[type="reset"] {
+	border: none; /* Remove border */
+    padding: 8px 10px;
+	font-size: 12px;
+	width: auto;
+	font-weight: 300;
+	min-width: 100px;
+	background-color: rgb(134 123 123 / 60%);
+}
+
+
+/* For smaller screens */
+@media screen and (max-width: 768px) {
+    .wrapper.style4 .container.medium {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    /* Each section takes 100% width on small screens */
+    .wrapper.style4 .container.medium .col-contact,
+    .wrapper.style4 .container.medium .col-social,
+    .wrapper.style4 .container.medium .col-form,
+    .wrapper.style4 .container.medium .col-form-actions {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+}
