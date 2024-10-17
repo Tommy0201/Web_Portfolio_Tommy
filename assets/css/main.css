@@ -2572,14 +2572,12 @@ outline-offset: 6px;
   
   .school-logo {
 	max-width: 100%;
-  }
-  
+  }  
   .education-details {
 	margin-top: 0px;
-	font-weight: bold;
 	/* color: wheat; */
-	color: floralwhite;
   }
+
   .education-details p {
 	margin-top: 5px;
 	margin-bottom: 0px;
@@ -2588,6 +2586,10 @@ outline-offset: 6px;
   .education-right {
 	flex-basis: 50%;
 	margin-top: 10px;
+  }
+  #education-school {
+	color: floralwhite;
+
   }
   
   .education-path {
@@ -2600,13 +2602,146 @@ outline-offset: 6px;
   }
 
   
-  .courses-button {
+.education-container {
+    position: relative;
+}
+
+.education-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.education-section {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Previous Education Button */
+.nav-buttons #prev-education {
+	background-color: rgba(0, 0, 0, 0.6);
+	backdrop-filter: blur(2px);
+	position: absolute;
+	left: -10%;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 40px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%; /* Circular button */
+	color: white;
+	font-size: 1.2rem;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+}
+
+/* Next Education Button */
+.nav-buttons #next-education {
+	background-color: rgba(0, 0, 0, 0.6);
+	backdrop-filter: blur(2px);
+	position: absolute;
+	right: -10%;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 40px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	color: white;
+	font-size: 1.2rem;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover Effect on Buttons */
+.nav-buttons #prev-education:hover,
+.nav-buttons #next-education:hover {
+	background-color: rgba(255, 255, 255, 0.8);
+	color: black;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+	.nav-buttons #next-education {
+		width: 35px;
+		height: 40px;
+		font-size: 1rem;
+		right: 1.5%;
+	}
+	.nav-buttons #prev-education {
+		width: 35px;
+		height: 40px;
+		font-size: 1rem;
+		left:1.5%
+	} 
+
+
+	#education-school {
+		font-size: 1.1rem; /* Reduce school name font size */
+	}
+	.education-left, 
+	.education-right {
+		flex-basis: 100%;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	.school-logo {
+		width: 70%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.wrapper.style2 {
+		padding-right: 10%;
+		padding-left: 10%;
+	}
+
+	.nav-buttons #next-education {
+		width: 30px;
+		height: 35px;
+		font-size: 0.9rem;
+		right: 1%;
+	}
+	.nav-buttons #prev-education {
+		width: 30px;
+		height: 35px;
+		font-size: 0.9rem;
+		left: 1%; 
+	}
+
+	.education-left, 
+	.education-right {
+		flex-basis: 100%;
+	}
+
+	#education-school {
+		font-size: 1rem;
+	}
+
+	.school-logo {
+		width: 60%;
+		margin: 0 auto;
+	}
+}
+
+  
+  #course-button {
 	display: inline-block;
 	padding: 2% 4%;
 	background-color:#517fa8;
 	color: #fff;
 	text-decoration: none;
 	margin:5%;
+	border-radius: 5px; /* Added for better aesthetics */
+	/* background-color: rgba(0, 0, 0, 0.4); */
+	transition: background-color 0.3s ease, transform 0.3s ease;
   }
   
   
@@ -2620,6 +2755,7 @@ outline-offset: 6px;
 		position: relative;
 		top: 25%;
 		right: 40%;
+		background-color: rgba(0, 0, 0, 0.4);
 	  }
   }
   
@@ -2635,8 +2771,8 @@ outline-offset: 6px;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 0, 0, 0.6); /* Adjust the opacity as needed */
-	backdrop-filter: blur(2px); /* Add blur effect to the background */
+	background-color: rgba(0, 0, 0, 0.6); 
+	backdrop-filter: blur(2px);
 	justify-content: center;
 	align-items: center;
 	z-index: 9999; 
@@ -2711,7 +2847,6 @@ outline-offset: 6px;
 .hidden {
 	display: none;
   }
-  
 @media screen and (max-width: 600px) {
 	#course-sheet {
 		max-width: 90%;
@@ -2882,13 +3017,32 @@ p.project-one__subtitle.span#project-intro, span#project-intro{
     --meta-col: wheat;
     --head-col: #fff;
 	padding-bottom: 8%;
-	background-image: url(../../images/VU-background.jpg);
     background-color: rgb(0 6 12 / 50%);
     color: var(--clr-light);
     background-size: cover;
     background-blend-mode: multiply;
 
  }
+ .container-experience-cards {
+    position: relative;
+    background-color: rgb(0, 6, 12, 0.5); /* Fallback color */
+    overflow: hidden; 
+	margin: 0;
+ }
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the video covers the container */
+    z-index: -1; /* Keep the video behind other content */
+}
+
+.container-experience-cards * {
+    position: relative;
+    z-index: 1; 
+}
 
 
 .section__title--experience {
@@ -2905,8 +3059,8 @@ p.project-one__subtitle.span#project-intro, span#project-intro{
     border: none;
     border-radius: 13px;
     contain: content;
-    margin: 5% 5% 3% 5%;
-    box-shadow: 1px 1px 6px rgba(0, 0, 0, 15%), 2px 2px 7px rgba(0, 0, 0, 14%), 3px 3px 8px rgba(0, 0, 0, 13%), 4px 4px 9px rgba(0, 0, 0, 12%);
+    margin: 5% 10% 3% 10%;
+    box-shadow:  0px 4px 15px var(--shadow-col1), 0px 6px 20px var(--shadow-col2);
     z-index: 1;
 	transition: all 0.8s ease-in-out;
  }
@@ -2919,6 +3073,7 @@ p.project-one__subtitle.span#project-intro, span#project-intro{
     padding: 18px;
     color: var(--head-col);
     border-radius: 0 13px 13px 0;
+	font-size:smaller;
  }
  .card1 header {
 	flex:100%;
@@ -2958,6 +3113,10 @@ p.project-one__subtitle.span#project-intro, span#project-intro{
 .card1 img {
 	max-width: 400px;
 }
+
+
+
+
 
 ul.address {
 	list-style-type: none;

@@ -25,7 +25,7 @@
 			<nav id="nav">
 				<ul class="container">
 					<li><a href="#top">Home</a></li>
-					<li><a href="#education">Education</a></li>
+					<li><a href="#education">Academics</a></li>
 					<li><a href="#experience">Experience</a></li>
 					<li><a href="#portfolio">Projects</a></li>
 					<li><a href="#contact">Contact</a></li>
@@ -97,25 +97,23 @@
 
 		<!-- Education -->
 			<article id="education" class="wrapper style2">
-				<div class="container">
+				<div class="container education-container">
 					<header>
-						<h2>My education</h2>
+						<h2>Academics</h2>
 					</header>
 					<section class="education-section">
 						<div class="education-left">
-						  <img src="images/VU_Logo.jpg" alt="School Logo" class="school-logo">
+						  <img alt="School Logo" class="school-logo" id="school-logo">
 						  <div class="education-details">
-							<p>Major: Computer Science</p>
-							<p>GPA: 3.96</p>
-							<p>Honors Student</p>
-							<p>Veritas Scholarship, Presidential Scholar Alternate</p>
-						  </div>
+							<p id="education-major"></p>
+							<p id="education-gpa"></p>
+							<p id="education-honors"></p>
+							<p id="education-scholarship"></p>
+						</div>
 						</div>
 						<div class="education-right">
-						  <p class="education-path">
-							Exploring various classes during my academic journey, I discovered a profound interest in Data Science and Discrete Structures, where I achieved the highest scores. My ability to handle data, coupled with strategic and systematic thinking, led me to pursue Statistics as my second major alongside Computer Science. 
-							My current work focuses on Natural Language Processing in which I am working to fine-tune preexiting translation models. Additionally, building recommendation algorithms excites me as reflected through my Film Recommendation System. Feel free to check it out <a href="#portfolio">below</a>!
-						  </p>
+						  <h4 id="education-school"></h4>
+						  <p id="education-description" class="education-path"></p>
 				<!--Courses-->
 						  <button id="course-button">View Courses</button>
 						  <div id="course-container" class="hidden">
@@ -126,7 +124,10 @@
 						
 							</div>
 						  </div>
-						  
+						  <div class="nav-buttons">
+							<button id="prev-education">←</button>
+							<button id="next-education">→</button>
+						</div>
 						</div>
 					  </section>
 				</div>
@@ -134,7 +135,11 @@
 		
 		<!-- Experience -->
 			<article id= "experience" class="container-experience-cards">   
-				<h2 class="section__title--experience">Work & Research</h2>     
+				<h2 class="section__title--experience">Work & Research</h2>  
+				<video autoplay muted loop id="background-video">
+					<source src="images/school-pics.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>   
 				<div class="col gaap aos-init aos-animate" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="500"> 
 					<div class="card1">
 					<img src="images/web-scraper-pic.png" class="featured-image">
@@ -306,6 +311,8 @@
 			<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 			<script src="assets/js/courses.js"></script>
 			<script src="assets/js/tablegenerate.js"></script>
+			<script src="assets/js/education-describe.js"></script>
+			<script src="assets/js/education-swipes.js"></script>
 			<script>
 				AOS.init();
 			  </script>
