@@ -2518,6 +2518,8 @@ a:hover {
 
 .school-logo {
 	transition: transform 200ms ease-in-out;
+	/* height: 400px; */
+	/* width: 400px; */
 }
 
 

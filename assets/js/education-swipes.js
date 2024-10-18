@@ -16,8 +16,7 @@ const educationLevels = [
         scholarship: "AI-JAM Silicon Valley 2021 Gold, International Young Scientists Innovation Exhibition 2021 Gold, Asian Science and Mathematics Olympiad 2021 1st Runner up, Singapore Asian Schools Math Olympiad 2020 Bronze",
         description: " I attended the top one highschool in Vietnam with acceptance rate of 10%. During this time, I won multiple awards related to Math and Sciences. I was also the President of an astronomy organization where I developed content, hosted courses, and engaged hundreds of students. Additionally, I took pride in leading various community initiatives, such as teaching English to underprivileged children and organizing school-wide events.",
         color: "#517fa8",
-
-        image: "images/pic05.jpg", 
+        image: "images/highschool.jpg", 
         school: "Hanoi-Amsterdam Highschool For the Gifted",
 
     },
