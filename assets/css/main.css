@@ -2976,7 +2976,9 @@ h2 {
     font-weight: var(--fw-bold);
     margin-bottom: 2em;
 }
-
+p.project-one__subtitle, p.project-two__subtitle {
+	max-width: 500px;
+}
 .project-one__button:focus,
 .project-one__button--two:focus,
 .project-two__button:focus,
@@ -3012,7 +3014,15 @@ h2 {
 	/* color:floralwhite;
 	font-weight: 800; */
 }
-
+.project-one, .project-two {
+	transition: transform 0.3s ease-in-out;
+	border-radius: 8px;
+  }
+  
+  .project-one:hover, .project-two:hover {
+	transform: scale(1.02); 
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  }
 
 @media (min-width: 950px) {
     .project-one, .project-two {
