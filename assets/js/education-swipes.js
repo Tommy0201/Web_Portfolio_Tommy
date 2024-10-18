@@ -4,9 +4,9 @@ const educationLevels = [
         gpa: "GPA: 3.96 / 4.0",
         honors: "Honors Student",
         scholarship: " Tapia 2024 Conference VU Scholar, Veritas Scholar 2026,  Connelly-Delouvrier Scholar 2025",
-        description: "Experienced in AI/ML research, software development, and building full-stack applications. Seeking a full-time Software Engineering internship for Summer 2025 with a focus on Backend Development, Full-stack Development, Data Engineering, AI/ML.",
+        description: "Hi, I am Minh (Tommy) Nguyen, a Computer Science student at Villanova University with a passion for AI/ML research and full-stack development. I’ve had the opportunity to work on exciting projects like developing AI-powered voicebots in my internship and fine-tuning large language models for low-resource languages in my research. I love the challenge of creating innovative solutions and am always eager to learn. Currently, as the Badminton Club President, I enjoy leading others to compete in badminton championships. I’m actively seeking a software engineering internship or data science internship for Summer 2025 to continue growing my expertise and making an impact.",
         color: "#0f437c", 
-        image: "images/VU_Logo.jpg", // Image source
+        image: "images/VU_Logo.jpg", 
         school: "Villanova University",
     },
     {

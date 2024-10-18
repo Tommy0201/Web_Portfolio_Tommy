@@ -2925,10 +2925,13 @@ outline-offset: 6px;
 
 .hobby-video {
     width: 100%;
-    max-height: 300px;
+    max-height: 500px;
     border: 2px solid #ddd;
     border-radius: 5px;
     margin-bottom: 20px;
+}
+.hobby-details {
+	height: 100px;
 }
 
 .hobby-details h3 {

@@ -1,17 +1,18 @@
 const hobbies = [
     {
-        title: "Boxing",
-        description: "I started boxing as a way to stay fit and push myself beyond my limits. I’ve been training for over 2 years and have even competed in local amateur competitions.",
+        title: "Combat Sports",
+        description: "I started Boxing and Muay Thai to learn self-defense, make use of my strength, and challenge my limits. I trained for three years, from age 16 to 18, under a professional trainer. Although I don’t train as often now, I still practice occasionally.",
         videoSrc: "videos/boxing.mp4", // Replace with your actual video path
     },
     {
         title: "Badminton",
-        description: "Badminton has always been my passion since high school. I play competitively in local leagues and have won several awards for my performance in doubles.",
-        videoSrc: "videos/badminton.mp4", // Replace with your actual video path
+        description: 
+        "Badminton has been my passion since I was 8 years old. I trained for three years with a former national player in Vietnam, but I couldn’t continue due to financial and time constraints. However, I was able to pick up the sport again in college, where I am currently the President of the Badminton Club. I’m co-leading a team of 10 members to compete in the Eastern Collegiate Championship this October.",
+        videoSrc: "images/badminton-merge.mp4", // Replace with your actual video path
     },
     {
         title: "Piano",
-        description: "I started learning piano at the age of 6. Over the years, I’ve performed in multiple recitals and composed my own pieces.",
+        description: "I have been playing the piano for three years, primarily focusing on soothing ballads. I also play jazz, classical music, and trending pop songs.",
         videoSrc: "videos/piano.mp4", // Replace with your actual video path
     }
 ];
