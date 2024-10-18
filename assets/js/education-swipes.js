@@ -10,7 +10,7 @@ const educationLevels = [
          I love the challenge of creating innovative solutions, and I am always eager to learn. I aspire to use STEM to propel education in under-developed areas.
          I am actively seeking a software engineering internship or data science internship for Summer 2025 to continue growing my expertise and making an impact.`,
         color: "#0f437c", 
-        images: ["images/vu2.jpg", "images/vu1.jpg","images/badmintonpair.jpg"],
+        images: ["images/vu2.jpg", "images/vu1.jpg","images/badmintonpair.jpg","images/VU_Logo.jpg"],
         school: "Villanova University",
     },
     {
@@ -22,7 +22,7 @@ const educationLevels = [
         I was also the President of an astronomy organization where I developed content, hosted courses, and engaged more than 100 students. 
         Additionally, I took pride in leading various community initiatives, such as teaching soft skills to more than 200 underprivileged children and organizing school-wide events for 2000 students.`,
         color: "#517fa8",
-        images: ["images/highschool.jpg","images/BanhMiKhong.jpg","images/scribbles.jpg"], 
+        images: ["images/highschool.jpg","images/BanhMiKhong.jpg","images/scribbles.jpg","images/Hanoiamsterdam_logo.jpg"], 
         school: "Hanoi-Amsterdam Highschool For the Gifted",
 
     },
