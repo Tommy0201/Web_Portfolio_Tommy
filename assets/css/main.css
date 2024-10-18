@@ -2180,7 +2180,6 @@ input, select, textarea {
 				width: 100%;
 				padding: 1em 0 1em 0;
 				position: relative;
-				right:40%;
 				top:25%
 			}
 
@@ -2557,6 +2556,7 @@ outline-offset: 6px;
 
 .wrapper.style2 {
 	height: 800px;
+	padding-top: 5%
 }
 
 .wrapper.style2 .container header h2 {
@@ -2574,11 +2574,11 @@ outline-offset: 6px;
   }
   
   .school-logo {
-	max-width: 100%;
+	max-width: 80%;
   }  
   .education-details {
 	margin-top: 0px;
-	/* color: wheat; */
+	text-align: left;
   }
 
   .education-details p {
@@ -2596,8 +2596,8 @@ outline-offset: 6px;
   }
   
   .education-path {
-	height: 66%;
 	text-align: left;
+	margin-bottom: 40px;
   }
   .education-path a{
 	transition: background-color 0.2s ease-in-out;
@@ -2669,6 +2669,9 @@ outline-offset: 6px;
 
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
+	#education-description {
+		display: none;
+	  }
 	.nav-buttons #next-education {
 		width: 35px;
 		height: 40px;
@@ -2700,6 +2703,9 @@ outline-offset: 6px;
 }
 
 @media screen and (max-width: 600px) {
+	#education-description {
+		display: none;
+	  }
 	.wrapper.style2 {
 		padding-right: 10%;
 		padding-left: 10%;
@@ -2957,8 +2963,19 @@ h2 {
 		width: 35px;
 		height: 40px;
 	}
+	.hobbies-content {
+		padding: 0;
+
+	}
+	.hobby-details p {
+		font-size: 12px;
+	}
 };
-	
+/* @media screen and (max-width: 600px) {
+	.hobby-details p {
+		font-size: 12px;
+	}
+};	 */
 
    /*
 ----------------------------
