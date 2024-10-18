@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     ];
 
-    let htmlContent = ``;
+    let htmlContent = `<h2 class="section__title--projects">Projects</h2>`;
 
     projects.forEach(project => {
         htmlContent += `
