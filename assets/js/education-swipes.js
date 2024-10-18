@@ -15,7 +15,7 @@ const educationLevels = [
         honors: "Silver medal",
         scholarship: "Merit Scholarship",
         description: "Engaged in various science fairs and projects. Participated in coding competitions.",
-        color: "rgb(4 96 178)",
+        color: "rgb(66 66 66)",
         image: "images/pic05.jpg", 
         school: "Hanoi-Amsterdam Highschool For the Gifted",
 
