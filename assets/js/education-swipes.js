@@ -1,14 +1,13 @@
 const educationLevels = [
     {
-        major: "Computer Science Major | Business Minor",
+        major: "Honors, Computer Science Major | Business Minor",
         gpa: "GPA: 3.96 / 4.0",
-        honors: "Honors Student",
+        honors: "",
         scholarship: " Tapia 2024 Conference VU Scholar, Veritas Scholar 2026,  Connelly-Delouvrier Scholar 2025",
         description: 
-        `Hi, I am Minh (Tommy) Nguyen, a Computer Science student from Vietnam with a passion for AI/ML research and full-stack development. 
-         I have had the opportunity to work on exciting projects like developing AI voicebot tutors in my internship and fine-tuning large language models for low-resource languages in my research.
-         I love the challenge of creating innovative solutions, and I am always eager to learn. I aspire to use STEM to propel education in under-developed areas.
-         I am actively seeking a software engineering internship or data science internship for Summer 2025 to continue growing my expertise and making an impact.`,
+        `Hi, I am Minh (Tommy) Nguyen from Vietnam. My passion lies in AI/ML research and full-stack development. 
+         I aspire to use STEM to propel education in under-developed areas. Creating innnovative solutions for students and the community excites me.
+         I am actively seeking a software engineering internship or data science internship for Summer 2025 to continue making an impact.`,
         color: "#0f437c", 
         images: ["images/vu2.jpg", "images/vu1.jpg","images/badmintonpair.jpg","images/VU_Logo.jpg"],
         school: "Villanova University",
@@ -20,7 +19,7 @@ const educationLevels = [
         scholarship: "AI-JAM Silicon Valley 2021 Gold, International Young Scientists Innovation Exhibition 2021 Gold, Asian Science and Mathematics Olympiad 2021 1st Runner up, Singapore Asian Schools Math Olympiad 2020 Bronze",
         description: `I attended the top one highschool in Vietnam with acceptance rate of 10%. During this time, I won multiple awards related to Math and Sciences. 
         I was also the President of an astronomy organization where I developed content, hosted courses, and engaged more than 100 students. 
-        Additionally, I took pride in leading various community initiatives, such as teaching soft skills to more than 200 underprivileged children and organizing school-wide events for 2000 students.`,
+        Additionally, I took pride in leading various community initiatives, such as teaching 200 underprivileged children and organizing school-wide events for 2000 students.`,
         color: "#517fa8",
         images: ["images/highschool.jpg","images/BanhMiKhong.jpg","images/scribbles.jpg","images/Hanoiamsterdam_logo.jpg"], 
         school: "Hanoi-Amsterdam Highschool For the Gifted",
