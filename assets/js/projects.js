@@ -9,16 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
             "language": "Python, Flask, Swift, React.js",
             "libraries": "Claude 3 Hakku, Open Router Llama 3, OpenCV, AWS (Amazon Elastic Container Services, Amazon Elastic Container Registry, Amazon Kinesis, AWS Bedrock)",
             "githubLink": "https://devpost.com/software/campus-hero-app",
-            "imageSrc": "images/campusHeroApp.png"
-        },
-        {
-            title: "RAG Chatbot",
-            intro: "Develop a retrieval-augmented generation chatbot in which users can upload their own documents and ask questions based on the uploaded files. Files are stores as vectorized chunks in a database.",
-            skills: "Chatbot Design, Large Language Models, Database System",
-            language: "Python, Flask, React.js, HTML, CSS",
-            libraries: "LangChain, ChromaDB, Docker, AWS, OpenAI API, OpenAI Embedding",
-            githubLink: "https://github.com/Tommy0201/WebApp_RAG_Chatbot",
-            imageSrc: "images/heroapp.jps"
+            "imageSrc": "images/heroapp.jpg"
         },
         {
             title: "RAG Chatbot",
