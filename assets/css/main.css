@@ -2611,6 +2611,7 @@ outline-offset: 6px;
 .education-container {
     position: relative;
 	height: 450px;
+	padding-top: 50px;
 }
 
 .education-content {
