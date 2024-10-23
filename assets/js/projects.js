@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const projects = [
         {
             "title": "Campus Hero App",
-            "intro": "Developed a safety app that provides real-time notifications, mental health support, incident reporting, and navigation assistance to enhance on-campus security for students. It leverages AI for real-time updates and emergency features.",
+            "intro": "Developed a safety app with 3 others that provides real-time notifications, mental health support, incident reporting, and navigation assistance to enhance on-campus security for students. It leverages AI for real-time updates and emergency features.",
             "skills": "Mobile App Development, AI Integration, Campus Safety Solutions",
             "language": "Python, Flask, Swift, React.js",
             "libraries": "Claude 3 Hakku, Open Router Llama 3, OpenCV, AWS (Amazon Elastic Container Services, Amazon Elastic Container Registry, Amazon Kinesis, AWS Bedrock)",
