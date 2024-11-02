@@ -2,7 +2,7 @@
 const experiences = [
     {
         title: 'Data Scientist Intern',
-        location: 'Remote',
+        location: 'PM Accelerator',
         date: '(Sep, 2024 - Present)',
         imageSrc: 'images/olli-merge.png',
         tasks: [
@@ -14,7 +14,7 @@ const experiences = [
     },
     {
         title: 'AI Software Engineer Intern',
-        location: 'Villanova, PA',
+        location: 'Olli Technology',
         date: '(May, 2024 - Aug, 2024)',
         imageSrc: 'images/olli-merge.png',
         tasks: [
@@ -26,7 +26,7 @@ const experiences = [
     },
     {
         title: 'AI Research Assistant',
-        location: 'Villanova, PA',
+        location: 'Center for Research and Fellowship',
         date: '(May, 2023 - present)',
         imageSrc: 'images/web-scraper-pic.png',
         tasks: [
@@ -39,7 +39,7 @@ const experiences = [
     },
     {
         title: 'Data Research Assistant',
-        location: 'Villanova, PA',
+        location: 'Center for Research and Fellowship',
         date: '(Jan, 2023 - April, 2023)',
         imageSrc: 'images/Text_Differences.png',
         tasks: [
