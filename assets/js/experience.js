@@ -1,6 +1,18 @@
 // Array of Work Experiences
 const experiences = [
     {
+        title: 'Data Scientist Intern',
+        location: 'Remote',
+        date: '(Sep, 2024 - Present)',
+        imageSrc: 'images/olli-merge.png',
+        tasks: [
+            'Co-developing the database system for the mobile app for BIPOC-owned small businesses.',
+            "Taking charge of setting up a recommendation system that recommends businesses based on users' background and preference",
+        ],
+        aosDelay: 100,
+        aosDuration: 500
+    },
+    {
         title: 'AI Software Engineer Intern',
         location: 'Villanova, PA',
         date: '(May, 2024 - Aug, 2024)',
