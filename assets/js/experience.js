@@ -4,7 +4,7 @@ const experiences = [
         title: 'Data Scientist Intern',
         location: 'PM Accelerator',
         date: '(Sep, 2024 - Present)',
-        imageSrc: 'images/olli-merge.png',
+        imageSrc: 'images/ethosapp.png',
         tasks: [
             'Co-developing the database system for the mobile app for BIPOC-owned small businesses.',
             "Taking charge of setting up a recommendation system that recommends businesses based on users' background and preference",
