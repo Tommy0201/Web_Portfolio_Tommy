@@ -1,8 +1,8 @@
 // Get the element where the text will be typed
 const typedTextElement = document.getElementById('my-name');
 const textToType1 = 'Tommy Nguyen';
-const textToType2 = 'Villanova University';
-const textToType3 = "Computer Science";
+const textToType2 = 'Computer Science';
+const textToType3 = "SWE Intern";
 const textToType4 = "LLMs Research";
 const textToType5 = "Business Minor";
 
@@ -15,7 +15,7 @@ function typeText(text, index) {
     if (index < text.length) {
       setTimeout(() => {
         typeText(text, index + 1);
-      }, 70);
+      }, 50);
     }  
   }
 }
@@ -25,16 +25,15 @@ function reTypeText(text) {
   typedTextElement.innerHTML = '<span class="cursor">|</span>';
   setTimeout(() => {
     typeText(text, 0);
-  }, 500);
+  }, 400);
 }
 
 
-// Function to handle the entire sequence
 function introTypeText() {
-  typeText(textToType1, 0); // First text
+  typeText(textToType1, 0); // First text 2200s to write
   
   setTimeout(() => {
-    reTypeText(textToType2); // Second text
+    reTypeText(textToType2); // Second text 
   }, 2200);
   
   setTimeout(() => {

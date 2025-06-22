@@ -2559,11 +2559,12 @@ outline-offset: 6px;
 
 .wrapper.style2 {
 	height: 800px;
-	padding-top: 5%
+	padding-top: 5%;
+	--text-col-edu: #f4f4f4;
 }
 
 .wrapper.style2 .container header h2 {
-	color: floralwhite;
+	color: var(--text-col-edu);
 }
 .education-section {
 	display: flex;
@@ -2594,7 +2595,7 @@ outline-offset: 6px;
 	margin-top: 10px;
   }
   #education-school {
-	color: floralwhite;
+	color: var(--text-col-edu);
 
   }
   
@@ -2604,7 +2605,7 @@ outline-offset: 6px;
   }
   .education-path a{
 	transition: background-color 0.2s ease-in-out;
-	color: floralwhite;
+	color: var(--text-col-edu);
   }
 
   
@@ -2639,7 +2640,6 @@ outline-offset: 6px;
 	align-items: center;
 	justify-content: center;
 	border-radius: 50%; /* Circular button */
-	color: white;
 	font-size: 1.2rem;
 	cursor: pointer;
 	transition: background-color 0.3s ease-in-out;
@@ -2658,7 +2658,6 @@ outline-offset: 6px;
 	align-items: center;
 	justify-content: center;
 	border-radius: 50%;
-	color: white;
 	font-size: 1.2rem;
 	cursor: pointer;
 	transition: background-color 0.3s ease-in-out;
@@ -2807,7 +2806,7 @@ outline-offset: 6px;
   #course-button {
 	display: inline-block;
 	padding: 2% 4%;
-	background-color:#517fa8;
+	background-color:rgb(81, 127, 168);
 	color: #fff;
 	text-decoration: none;
 	margin:5%;
@@ -3197,15 +3196,16 @@ p.project-one__subtitle.span#project-intro, span#project-intro{
 
 .container-experience-cards {
     --bg1-color: #272727;
-    --text-color: #fff;
     --bg-txt-img: linear-gradient(315deg, #d5adc8 0%, #ff8489 74%);
+	--bg-card-color: rgb(81, 127, 168);
     --txt-fill: transparent;
-    --shadow-col1: #191919;
-    --shadow-col2: #1d1d1d;
+    --shadow-col1: #1b1b1b;
+    --shadow-col2: #4e4d4d;
     --meta-col: wheat;
-    --head-col: #fff;
+    --text-col: #FEFAF6;
+	--title-col: #FEFAF6;
 	padding-bottom: 8%;
-    background-color: rgb(0 6 12 / 50%);
+    margin: 0;
     color: var(--clr-light);
     background-size: cover;
     background-blend-mode: multiply;
@@ -3213,19 +3213,11 @@ p.project-one__subtitle.span#project-intro, span#project-intro{
  }
  .container-experience-cards {
     position: relative;
-    background-color: rgb(0, 6, 12, 0.5); /* Fallback color */
+    /* background-color: rgb(0, 6, 12, 0.5);  */
+	background-color:  rgb(15, 67, 124);
     overflow: hidden; 
 	margin: 0;
  }
-#background-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensure the video covers the container */
-    z-index: -1; /* Keep the video behind other content */
-}
 
 .container-experience-cards * {
     position: relative;
@@ -3234,14 +3226,13 @@ p.project-one__subtitle.span#project-intro, span#project-intro{
 
 
 .section__title--experience {
-	color: var(--head-col);
+	color: var(--title-col);
 	text-align: center;
 	padding-top: 4%;
 	padding-bottom: 5%;
 }
 
  .card1 {
-	background-color: #0f437c;
     display: flex;
     max-height: 80%;
     border: none;
@@ -3250,18 +3241,19 @@ p.project-one__subtitle.span#project-intro, span#project-intro{
     margin: 5% 10% 3% 10%;
     box-shadow:  0px 4px 15px var(--shadow-col1), 0px 6px 20px var(--shadow-col2);
     z-index: 1;
-	transition: all 0.8s ease-in-out;
+	transition: all 0.6s ease-in-out;
  }
  .card1:hover {
-	transform: scale(1.03);
+	transform: scale(1.07);
  }
  .card1 .card-body {
     display: flex;
     flex-flow: row wrap;
     padding: 18px;
-    color: var(--head-col);
-    border-radius: 0 13px 13px 0;
+    color: var(--text-col);
+    border-radius: 0 1px 1px 0;
 	font-size:smaller;
+	background-color: var(--bg-card-color);
  }
  .card1 header {
 	flex:100%;
@@ -3275,7 +3267,7 @@ p.project-one__subtitle.span#project-intro, span#project-intro{
     font-size: 2rem;
     margin-top: 5px;
     margin-bottom: 5px;
-    color: var(--head-col);
+    color: var(--text-col);
     text-align: center;
 }
 .card-body .meta {
