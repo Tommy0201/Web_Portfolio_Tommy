@@ -4,7 +4,7 @@ const experiences = [
         title: 'Data Scientist Intern',
         location: 'PM Accelerator',
         date: '(Sep, 2024 - Present)',
-        imageSrc: 'images/ethosapp.png',
+        imageSrc: 'assets/images/ethosapp.png',
         tasks: [
             'Co-developing the database system for the mobile app for BIPOC-owned small businesses.',
             "Taking charge of setting up a recommendation system that recommends businesses based on users' background and preference",
@@ -16,7 +16,7 @@ const experiences = [
         title: 'AI Software Engineer Intern',
         location: 'Olli Technology',
         date: '(May, 2024 - Aug, 2024)',
-        imageSrc: 'images/olli-merge.png',
+        imageSrc: 'assets/images/olli-merge.png',
         tasks: [
             'Co-developed the AI voicebot backend with 2 developers using LangGraph and GPT API; developed its prototype using Flask, React, and gRPC and helped secure a partnership with the Malaysian Minister of Education.',
             'Developed an AI-powered image suggestion feature for a marketing assistant app, leveraging Unsplash API (free image library), DALL-E API, GPT API, and gRPC, resulting in a 25% increase in user engagement.',
@@ -28,7 +28,7 @@ const experiences = [
         title: 'AI Research Assistant',
         location: 'Center for Research and Fellowship',
         date: '(May, 2023 - present)',
-        imageSrc: 'images/web-scraper-pic.png',
+        imageSrc: 'assets/images/web-scraper-pic.png',
         tasks: [
             "Implemented a web scraper using Python's BeautifulSoup and concurrent programming to extract over 2 million data points from sources like BBC and TedTalk, then preprocessed and analyzed the dataset, including 116,884 Igbo and 121,266 Nigerian Pidgin sentences, with 70,000 sentences annotated by native speakers.",
             "Fine-tuned Large Language Models (ByT5, NLLB, DeltaLM) for Igbo to English translation using benchmark datasets of 700,000 aligned sentence pairs, achieving a 43% BLEU-score improvement.",
@@ -41,7 +41,7 @@ const experiences = [
         title: 'Data Research Assistant',
         location: 'Center for Research and Fellowship',
         date: '(Jan, 2023 - April, 2023)',
-        imageSrc: 'images/Text_Differences.png',
+        imageSrc: 'assets/images/Text_Differences.png',
         tasks: [
             "Refined the text-generation of the AMR system, a Natural Language Processing tool, to sound more human-like",
             "Automated testing over large datasets and analyzed 80,000 sentences using Python, proposed mathematical expression learning to improve the system"

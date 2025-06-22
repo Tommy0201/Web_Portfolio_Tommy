@@ -9,18 +9,7 @@
   function showCourseSheet() {
     const courseContainer = document.getElementById('course-container');
     const courseSheet = document.getElementById('course-sheet');
-    // const courseList = document.getElementById('course-list');
-  
-    // Clear any existing courses from the list
-    // courseList.innerHTML = '';
-  
-    // Add courses to the list
-    // coursesTaken.forEach(function(course) {
-    //   const listItem = document.createElement('li');
-    //   listItem.textContent = course;
-    //   courseList.appendChild(listItem);
-    // });
-  
+
     // Show the course sheet
     courseContainer.classList.remove('hidden');
     courseSheet.classList.remove('hidden');
