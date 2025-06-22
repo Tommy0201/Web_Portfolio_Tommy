@@ -3,7 +3,8 @@ const typedTextElement = document.getElementById('my-name');
 const textToType1 = 'Tommy Nguyen';
 const textToType2 = 'Villanova University';
 const textToType3 = "Computer Science";
-const textToType4 = "Business Minor";
+const textToType4 = "LLMs Research";
+const textToType5 = "Business Minor";
 
 // Function to simulate typing effect
 function typeText(text, index) {
@@ -37,16 +38,20 @@ function introTypeText() {
   }, 2200);
   
   setTimeout(() => {
-    reTypeText(textToType3); // Third text
+    reTypeText(textToType3); // Third text 3400s to write
   }, 5600);
   
   setTimeout(() => {
-    reTypeText(textToType4); // Fourth text
+    reTypeText(textToType4); // Fourth text 3400s to write
   }, 9000);
+
+    setTimeout(() => {
+    reTypeText(textToType5); // Fifth text 3400s to write
+  }, 12400);
   
   setTimeout(() => {
-    typedTextElement.innerHTML = `Tommy Nguyen`; // Final display
-  }, 13000);
+    typedTextElement.innerHTML = `Tommy Nguyen`;
+  }, 16400);
 }
 
 introTypeText();
