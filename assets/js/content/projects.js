@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
             "language": "Python, Flask, Swift, React.js",
             "libraries": "Claude 3 Hakku, Open Router Llama 3, OpenCV, AWS (Amazon Elastic Container Services, Amazon Elastic Container Registry, Amazon Kinesis, AWS Bedrock)",
             "githubLink": "https://devpost.com/software/campus-hero-app",
-            "imageSrc": "assets/images/heroapp.jpg"
+            "imageSrc": "assets/images/projects/heroapp.jpg"
         },
         {
             title: "RAG Chatbot",
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
             language: "Python, Flask, React.js, HTML, CSS",
             libraries: "LangChain, ChromaDB, Docker, AWS, OpenAI API, OpenAI Embedding",
             githubLink: "https://github.com/Tommy0201/WebApp_RAG_Chatbot",
-            imageSrc: "assets/images/ragChatbot.png"
+            imageSrc: "assets/images/projects/ragChatbot.png"
         },
         {
             title: "Villanova University Stock Exchange Platform",
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
             language: "Python, Flask, Javascript, MyQSL, HTML, CSS",
             libraries: "REST API, Threading, Pandas, Numpy,  ",
             githubLink: "https://github.com/Tommy0201/VU-STOCK-EXCHANGE/tree/main",
-            imageSrc: "assets/images/stockmerged.png"
+            imageSrc: "assets/images/projects/stockmerged.png"
         },
         {
             title: "Cocktail Recommendation Chatbot",
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
             language: "Python, Flask, React.js, HTML, CSS",
             libraries: "BeautifulSoup, sklearn, Numpy, Pandas, OpenAI",
             githubLink: "https://github.com/Tommy0201/CocktailChatBot-Flask-App/tree/main",
-            imageSrc: "assets/images/cocktailChatbot.png"
+            imageSrc: "assets/images/projects/cocktailChatbot.png"
         },
         {
             title: "WeatherApp Forecast",
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
             language: "Python, Flask, React.js, HTML, CSS",
             libraries: "OpenWeatherMap API",
             githubLink: "https://github.com/Tommy0201/Weather_App_TommyNg",
-            imageSrc: "assets/images/weatherApp.png"
+            imageSrc: "assets/images/projects/weatherApp.png"
         },
         {
             title: "Exploring Relationship of Word Education and Unemployment",
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
             language: "R and code in R studio.",
             libraries: "dply, ggplot2, tydr, rvest, stringr, plotly.",
             githubLink: "https://github.com/Tommy0201/World-Education-Unemployment",
-            imageSrc: "assets/images/data science proj.png"
+            imageSrc: "assets/images/projects/data science proj.png"
         },
         {
             title: "Film Recommendation System",
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function() {
             libraries: "pandas and numpy.",
             mlLibrary: "sklearn.",
             githubLink: "https://github.com/Tommy0201/Film_Recommendation_Using_Kmeans",
-            imageSrc: "assets/images/film_rec_pic.png"
+            imageSrc: "assets/images/projects/film_rec_pic.png"
         },
         {
             title: "Villanova University Calories Tracker",
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function() {
             javascriptLibrary: "ReactJs.",
             platform: "Firebase.",
             githubLink: "https://github.com/Tommy0201/VU_Calo_Trackers",
-            imageSrc: "assets/images/vu-calo-123.png"
+            imageSrc: "assets/images/projects/vu-calo-123.png"
         }
     ];
 

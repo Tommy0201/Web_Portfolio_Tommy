@@ -2574,6 +2574,14 @@ outline-offset: 6px;
 	flex-wrap: wrap;
 	justify-content: space-between;
   }
+.section__title--academic {
+  transition: transform 0.3s ease; 
+  display: inline-block; 
+}
+
+.section__title--academic:hover {
+  transform: scale(1.1);
+}
   
   .education-left {
 	flex-basis: 40%;
@@ -3046,6 +3054,14 @@ h2 {
     font-weight: var(--fw-bold);
     margin-bottom: 2em;
 }
+.section__title--projects {
+  transition: transform 0.3s ease; 
+  display: inline-block; 
+}
+
+.section__title--projects:hover {
+  transform: scale(1.1);
+}
 p.project-one__subtitle, p.project-two__subtitle {
 	max-width: 500px;
 }
@@ -3208,7 +3224,6 @@ p.project-one__subtitle.span#project-intro, span#project-intro{
     --meta-col: wheat;
     --text-col: #FEFAF6;
 	--title-col: #272727;
-	padding-bottom: 8%;
     margin: 0;
     color: var(--clr-light);
     /* background-size: cover;
@@ -3232,8 +3247,14 @@ p.project-one__subtitle.span#project-intro, span#project-intro{
 .section__title--experience {
 	color: var(--title-col);
 	text-align: center;
-	padding-top: 4%;
-	padding-bottom: 5%;
+}
+.section__title--experience {
+  transition: transform 0.3s ease; 
+  display: inline-block; 
+}
+
+.section__title--experience:hover {
+  transform: scale(1.1);
 }
 
  .card1 {

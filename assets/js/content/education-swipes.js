@@ -9,7 +9,7 @@ const educationLevels = [
          I aspire to use STEM to propel education in under-developed areas. Creating innnovative solutions for students and the community excites me.
          I am actively seeking a full-time new grad software engineering or data science role for Spring 2026 to continue making an impact.`,
         color: "#0f437c", 
-        images: ["assets/images/vu2.jpg", "assets/images/vu1.jpg","assets/images/badmintonpair.jpg","assets/images/VU_Logo.jpg"],
+        images: ["assets/images/education/vu2.jpg", "assets/images/education/vu1.jpg","assets/images/education/badmintonpair.jpg","assets/images/education/vsaexpo.jpg","assets/images/education/VU_Logo.jpg"],
         school: "Villanova University",
     },
     {
@@ -21,7 +21,7 @@ const educationLevels = [
         I was also the President of an astronomy organization where I developed content, hosted courses, and engaged more than 100 students. 
         Additionally, I took pride in leading various community initiatives, such as teaching 200 underprivileged children and organizing school-wide events for 2000 students.`,
         color: "#517fa8",
-        images: ["assets/images/highschool.jpg","assets/images/BanhMiKhong.jpg","assets/images/scribbles.jpg","assets/images/Hanoiamsterdam_logo.jpg"], 
+        images: ["assets/images/education/highschool.jpg","assets/images/education/BanhMiKhong.jpg","assets/images/education/scribbles.jpg","assets/images/education/Hanoiamsterdam_logo.jpg"], 
         school: "Hanoi-Amsterdam Highschool For the Gifted",
 
     },
@@ -33,7 +33,7 @@ const educationLevels = [
     //     description: "I attended the top one secondary school in Vietnam with acceptance rate of < 10%. During middle school, I competed and won various Math and Physics competition.",
     //     color: "rgb(66 66 66)",
 
-    //     image: "assets/images/pic05.jpg", 
+    //     image: "assets/images/education/pic05.jpg", 
     //     school: "Hanoi-Amsterdam Middle School For the Gifted",
 
     // }
