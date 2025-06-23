@@ -28,7 +28,7 @@ const experiences = [
         title: 'AI Software Engineer Intern',
         location: 'Olli Technology',
         date: '(May, 2024 - Aug, 2024)',
-        imageSrc: 'assets/images/work-experience/olli-merge.png',
+        imageSrc: 'assets/images/work-experience/olli-maika.png',
         tasks: [
             'Co-developed the AI voicebot backend with 2 developers using LangGraph and GPT API; developed its prototype using Flask, React, and gRPC and helped secure a partnership with the Malaysian Minister of Education.',
             'Developed an AI-powered image suggestion feature for a marketing assistant app, leveraging Unsplash API (free image library), DALL-E API, GPT API, and gRPC, resulting in a 25% increase in user engagement.',
@@ -37,10 +37,10 @@ const experiences = [
         aosDuration: 500
     },
     {
-        title: 'AI Research Assistant',
+        title: 'NLP Research Assistant',
         location: 'Center for Research and Fellowship',
-        date: '(May, 2023 - present)',
-        imageSrc: 'assets/images/work-experience/web-scraper-pic.png',
+        date: '(May, 2023 - May 2025)',
+        imageSrc: 'assets/images/work-experience/llm-diversity.png',
         tasks: [
             "Implemented a web scraper using Python's BeautifulSoup and concurrent programming to extract over 2 million data points from sources like BBC and TedTalk, then preprocessed and analyzed the dataset, including 116,884 Igbo and 121,266 Nigerian Pidgin sentences, with 70,000 sentences annotated by native speakers.",
             "Fine-tuned Large Language Models (ByT5, NLLB, DeltaLM) for Igbo to English translation using benchmark datasets of 700,000 aligned sentence pairs, achieving a 43% BLEU-score improvement.",

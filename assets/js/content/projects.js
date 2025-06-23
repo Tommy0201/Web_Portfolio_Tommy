@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
             "language": "Python, Flask, Swift, React.js",
             "libraries": "Claude 3 Hakku, Open Router Llama 3, OpenCV, AWS (Amazon Elastic Container Services, Amazon Elastic Container Registry, Amazon Kinesis, AWS Bedrock)",
             "githubLink": "https://devpost.com/software/campus-hero-app",
-            "imageSrc": "assets/images/projects/heroapp.jpg"
+            "imageSrc": "assets/images/projects/campus.jpg"
         },
         {
             title: "RAG Chatbot",
@@ -66,15 +66,15 @@ document.addEventListener("DOMContentLoaded", function() {
             githubLink: "https://github.com/Tommy0201/Film_Recommendation_Using_Kmeans",
             imageSrc: "assets/images/projects/film_rec_pic.png"
         },
-        {
-            title: "Villanova University Calories Tracker",
-            intro: "Allows Villanova Students to track their calories by adding the food to their 'cart'. The cart will display their total calories and macros (protein, carb, fiber). Students can type in their name and have their cart saved in the dropdown menu to the right.",
-            frontend: "HTML, CSS.",
-            javascriptLibrary: "ReactJs.",
-            platform: "Firebase.",
-            githubLink: "https://github.com/Tommy0201/VU_Calo_Trackers",
-            imageSrc: "assets/images/projects/vu-calo-123.png"
-        }
+        // {
+        //     title: "Villanova University Calories Tracker",
+        //     intro: "Allows Villanova Students to track their calories by adding the food to their 'cart'. The cart will display their total calories and macros (protein, carb, fiber). Students can type in their name and have their cart saved in the dropdown menu to the right.",
+        //     frontend: "HTML, CSS.",
+        //     javascriptLibrary: "ReactJs.",
+        //     platform: "Firebase.",
+        //     githubLink: "https://github.com/Tommy0201/VU_Calo_Trackers",
+        //     imageSrc: "assets/images/projects/vu-calo-123.png"
+        // }
     ];
 
     let htmlContent = `<h2 class="section__title--projects">Projects</h2>`;

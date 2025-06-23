@@ -7,6 +7,13 @@ const data = {
             ["CSC 5993", "Computer Vision (Independent)"],
             ["VSB 1015", "Business Dynamics"],
         ],
+        "Spring": [
+            ["VSB 2004", "Financial Accounting"],
+            ["PHI 2180", "Computer Ethics"],
+            ["AAH 2009", "Art History"],
+            ["CHI 3412", "Classical Chinese Philosophy"],
+            ["VSB 2006", "Business Strategy"],
+        ],
     },    
     "2023-2024": {
         "Fall": [
