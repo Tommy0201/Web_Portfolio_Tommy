@@ -11,7 +11,7 @@ particlesJS.load('particles-js', 'particles.json', function() {
 
 /* Otherwise just put the config content (json): */
 
-particlesJS('particles-js',
+const particleConfig = 
   
     {
       "particles": {
@@ -128,6 +128,38 @@ particlesJS('particles-js',
         "background_repeat": "no-repeat",
         "background_size": "cover"
       }
-    }
+    };
+
+function initializeParticles() {
+    // List all your particle container IDs here
+    const particleIds = [
+        'particles-js-1',
+        'particles-js-2', 
+        'particles-js-3',
+        'particles-js-4',
+        'particles-js-5',
+        'particles-js-6',
+        'particles-js-7',
+        'particles-js-8',
+        'particles-js-9',
+    ];
+    
+    particleIds.forEach(id => {
+        const element = document.getElementById(id);
+        if (element) {
+            particlesJS(id, particleConfig);
+        }
+    });
+}
+
+    // Initialize when DOM is loaded
+document.addEventListener('DOMContentLoaded', function() {
+    initializeParticles();
+});
+
+// Alternative: If you prefer to manually specify each section
+// Uncomment this and comment out the above function if you want more control
+
+
+
   
-  );

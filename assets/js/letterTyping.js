@@ -15,7 +15,7 @@ function typeText(text, index) {
     if (index < text.length) {
       setTimeout(() => {
         typeText(text, index + 1);
-      }, 50);
+      }, 45);
     }  
   }
 }
@@ -38,19 +38,19 @@ function introTypeText() {
   
   setTimeout(() => {
     reTypeText(textToType3); // Third text 3400s to write
-  }, 5600);
+  }, 5200);
   
   setTimeout(() => {
     reTypeText(textToType4); // Fourth text 3400s to write
-  }, 9000);
+  }, 8200);
 
     setTimeout(() => {
     reTypeText(textToType5); // Fifth text 3400s to write
-  }, 12400);
+  }, 11200);
   
   setTimeout(() => {
     typedTextElement.innerHTML = `Tommy Nguyen`;
-  }, 16400);
+  }, 14200);
 }
 
 introTypeText();
