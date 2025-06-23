@@ -1,9 +1,21 @@
 // Array of Work Experiences
 const experiences = [
     {
+        title: 'Software Engineer Intern',
+        location: 'SoFi',
+        date: '(May, 2025 - Present)',
+        imageSrc: 'assets/images/work-experience/sofilogo.png',
+        tasks: [
+            'Enhanced internal management tool using Spring Boot, ReactJS, and PostgreSQL to automate the debt sale process, eliminating 70+ manual merge requests annually',
+            "Built an aggregated debt sales tab, updated backend logic for in-place sale modifications, and implemented an audit table to track all changes in the bill of sale staging table",
+        ],
+        aosDelay: 100,
+        aosDuration: 500
+    },
+    {
         title: 'Data Scientist Intern',
         location: 'PM Accelerator',
-        date: '(Sep, 2024 - Present)',
+        date: '(Sep, 2024 - Dec, 2024)',
         imageSrc: 'assets/images/ethosapp.png',
         tasks: [
             'Co-developing the database system for the mobile app for BIPOC-owned small businesses.',
@@ -32,7 +44,7 @@ const experiences = [
         tasks: [
             "Implemented a web scraper using Python's BeautifulSoup and concurrent programming to extract over 2 million data points from sources like BBC and TedTalk, then preprocessed and analyzed the dataset, including 116,884 Igbo and 121,266 Nigerian Pidgin sentences, with 70,000 sentences annotated by native speakers.",
             "Fine-tuned Large Language Models (ByT5, NLLB, DeltaLM) for Igbo to English translation using benchmark datasets of 700,000 aligned sentence pairs, achieving a 43% BLEU-score improvement.",
-            "Set to publish datasets of 100,000 aligned sentences in two underrepresented Nigerian languages, created through web scraping and native speaker collaboration, at ICWSM 2025 and COLING 2025 conference"
+            "Paper published at LoResMT workshop, part of 2025 NAACL conference"
         ],
         aosDelay: 100,
         aosDuration: 400

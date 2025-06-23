@@ -1856,32 +1856,34 @@ input, select, textarea {
 
 	.wrapper {
 		background-image: url("images/bg.png");
-		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+		/* box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.05), inset 0px 1px 1.5px 0px rgba(0, 0, 0, 0.1); */
 		padding: 8em 0 8em 0;
 		text-align: center;
 	}
 
 		.wrapper.style1 {
 			background-image: none;
-			background-color: #fff;
+			background-color: #f4f4f4;
 		}
 
 		.wrapper.style2 {
-			background-color:#0f437c;
-			color: floralwhite;
+			background-image: none;
+			background-color: #f4f4f4;
 			margin-bottom: 0;
 		}
 
 		.wrapper.style3 {
+			background-image: none;
 			background-color: #f4f4f4;
 			margin-bottom: 0;
 		}
 
 		.wrapper.style4 {
 			background-color: #303030;
+			background-image: none;
 			color: #999;
 			text-shadow: -1px -1px 0px #181818;
-			padding: 0px 0px 10px 0px;
+			padding: 50px 0 0 0;
 		}
 
 			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
@@ -2567,6 +2569,7 @@ outline-offset: 6px;
 	color: var(--text-col-edu);
 }
 .education-section {
+	color: var(--text-col-edu);
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -2929,17 +2932,19 @@ outline-offset: 6px;
   Hobbies
 ----------------------------
 */
-.wrapper.hobbies-wrapper {
+/* .wrapper.hobbies-wrapper {
     background-color: #f4f4f4; 
     color: #333; 
     text-align: center;
 	margin-bottom: 0;
-}
+} */
 
 .container.hobbies-container {
     max-width: 900px;
     margin: auto;
     position: relative;
+	background-image: none;
+	background-color: #f4f4f4;
 }
 
 .hobbies-section {
@@ -3196,25 +3201,24 @@ p.project-one__subtitle.span#project-intro, span#project-intro{
 
 .container-experience-cards {
     --bg1-color: #272727;
-    --bg-txt-img: linear-gradient(315deg, #d5adc8 0%, #ff8489 74%);
 	--bg-card-color: rgb(81, 127, 168);
-    --txt-fill: transparent;
-    --shadow-col1: #1b1b1b;
-    --shadow-col2: #4e4d4d;
+	/* --bg-card-color: rgb(15, 67, 124); */
+    --shadow-col1: #bbbaba;
+    --shadow-col2: #bbbaba;
     --meta-col: wheat;
     --text-col: #FEFAF6;
-	--title-col: #FEFAF6;
+	--title-col: #272727;
 	padding-bottom: 8%;
     margin: 0;
     color: var(--clr-light);
-    background-size: cover;
-    background-blend-mode: multiply;
+    /* background-size: cover;
+    background-blend-mode: multiply; */
 
  }
  .container-experience-cards {
     position: relative;
-    /* background-color: rgb(0, 6, 12, 0.5);  */
-	background-color:  rgb(15, 67, 124);
+	/* background-color:  rgb(15, 67, 124); */
+	/* background-color: #f4f4f4; */
     overflow: hidden; 
 	margin: 0;
  }
@@ -3234,18 +3238,20 @@ p.project-one__subtitle.span#project-intro, span#project-intro{
 
  .card1 {
     display: flex;
-    max-height: 80%;
+    max-height: 50%;
+	max-width: 70%;
     border: none;
     border-radius: 13px;
     contain: content;
-    margin: 5% 10% 3% 10%;
+    margin: 5% 15% 3% 15%;
     box-shadow:  0px 4px 15px var(--shadow-col1), 0px 6px 20px var(--shadow-col2);
     z-index: 1;
 	transition: all 0.6s ease-in-out;
  }
- .card1:hover {
-	transform: scale(1.07);
- }
+ .card1.scale-in {
+    transform: scale(1.07);
+    transition: transform 0.7s ease-in-out;
+}
  .card1 .card-body {
     display: flex;
     flex-flow: row wrap;

@@ -1,13 +1,13 @@
 const educationLevels = [
     {
-        major: "Honors, Computer Science Major | Business Minor",
+        major: "Honors Degree, Computer Science Major | Business Minor",
         gpa: "GPA: 3.97 / 4.0",
         honors: "",
         scholarship: " Tapia 2024 Conference VU Scholar, Veritas Scholar 2026,  Connelly-Delouvrier Scholar 2025",
         description: 
         `Hi, I am Minh (Tommy) Nguyen from Vietnam. My passion lies in AI/ML research and full-stack development. 
          I aspire to use STEM to propel education in under-developed areas. Creating innnovative solutions for students and the community excites me.
-         I am actively seeking a software engineering internship or data science internship for Summer 2025 to continue making an impact.`,
+         I am actively seeking a full-time new grad software engineering or data science role for Spring 2026 to continue making an impact.`,
         color: "#0f437c", 
         images: ["assets/images/vu2.jpg", "assets/images/vu1.jpg","assets/images/badmintonpair.jpg","assets/images/VU_Logo.jpg"],
         school: "Villanova University",
