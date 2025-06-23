@@ -10,7 +10,7 @@
 }
 #particles-js-2 {
     position: absolute;
-    top: 100vh;
+    top: 110vh;
     left: 0;
     width: 100%;
     height: 100%;
@@ -19,7 +19,7 @@
 }
 #particles-js-3 {
     position: absolute;
-    top: 200vh;
+    top: 220vh;
     left: 0;
     width: 100%;
     height: 100%;
@@ -28,7 +28,7 @@
 }
 #particles-js-4 {
     position: absolute;
-    top: 300vh;
+    top: 330vh;
     left: 0;
     width: 100%;
     height: 100%;
@@ -37,7 +37,7 @@
 }
 #particles-js-5 {
     position: absolute;
-    top: 400vh;
+    top: 440vh;
     left: 0;
     width: 100%;
     height: 100%;
@@ -46,7 +46,7 @@
 }
 #particles-js-6 {
     position: absolute;
-    top: 500vh;
+    top: 545vh;
     left: 0;
     width: 100%;
     height: 100%;
