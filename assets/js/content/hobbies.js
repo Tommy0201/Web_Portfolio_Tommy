@@ -9,8 +9,7 @@ const hobbies = [
         title: "Badminton",
         description: 
         `Badminton has been my passion since I was 8 years old. I trained for three years with a former national player in Vietnam, but I couldn’t continue due to financial and time constraints. 
-         However, I was able to pick up the sport again in college, where I am currently the President of the Badminton Club. 
-         I’m co-leading a team of 10 members to compete in the Eastern Collegiate Championship this October.`,
+         However, I was able to pick up the sport again in college, where I am currently the President of the Badminton Club.`,
         videoSrc: "videos/badminton-merge.mp4", 
     },
     {
