@@ -1971,6 +1971,9 @@ input, select, textarea {
 			
 		}
 /* Articles */
+	article h2 {
+		margin-top: 50px;
+	}
 
 	body > article {
 		margin-bottom: 0;
@@ -2937,10 +2940,12 @@ outline-offset: 6px;
 */
 
 .container.hobbies-container {
+	--hobbies-txt-color: rgb(254, 238, 206);
+	--hobbies-txt-color-hov: #f4f4f4;
     max-width: 900px;
     margin: auto;
     position: relative;
-    background-color: #f4f4f4;
+    background-color: rgb(81, 127, 168);
     padding: 40px 20px 80px;
     z-index: 100;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
@@ -2950,7 +2955,7 @@ outline-offset: 6px;
 .container.hobbies-container:hover {
     transform: scale(1.02);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    background-color: #f1f1f1;
+    /* background-color: rgb(15, 67, 124); */
     cursor: pointer;
 }
 .hobbies-section {
@@ -2966,7 +2971,7 @@ outline-offset: 6px;
 	all: unset;
 	background-color: var(--text-col-edu);
 	
-	color: #333 !important;
+	color: var(--hobbies-txt-color) !important;
     font-size: 2rem;
     padding: 1px;
     cursor: pointer;
@@ -2977,7 +2982,7 @@ outline-offset: 6px;
 }
 
 .nav-button:hover {
-	color:  #f4f4f4 !important;
+	color:  wheat !important;
 	background-color:#777777 !important;
 }
 
@@ -2990,7 +2995,7 @@ outline-offset: 6px;
 .hobby-video {
     width: 100%;
     height: 420px;
-    border: 2px solid #ddd;
+    border: 0.5px solid var(--hobbies-txt-color);
     border-radius: 5px;
     margin-bottom: 20px;
 }
@@ -3000,20 +3005,31 @@ outline-offset: 6px;
 
 .hobby-details h3 {
     font-size: 24px;
-    color: #333;
+    color: var(--hobbies-txt-color);
     margin-bottom: 10px;
 }
 
 .hobby-details p {
     font-size: 16px;
-    color: #555;
+    color: var(--hobbies-txt-color);
 }
 
 h2 {
     font-size: 36px;
-    color: #333;
+    color: var(--hobbies-txt-color) ;
     margin-bottom: 40px;
 }
+
+/* .container.hobbies-container:hover h2,
+.container.hobbies-container:hover h3,
+.container.hobbies-container:hover p,
+.container.hobbies-container:hover .nav-button {
+    color: var(--hobbies-txt-color-hov) !important;
+}
+
+.container.hobbies-container:hover .hobby-video {
+    border-color: var(--hobbies-txt-color-hov);
+} */
 
 @media screen and (max-width: 768px) {
 	.nav-button {
@@ -3084,6 +3100,7 @@ h2 {
     padding: 16px;
     min-width: 300px; 
 	height: 600px;
+	/* color: #f4f4f4; */
 }
 
 .project-one__image {
@@ -3092,6 +3109,9 @@ h2 {
     border-radius: 4px;
 	margin: 20px 0px;
 }
+/* .project-one__title {
+	color: #f4f4f4;
+} */
 
 
 
