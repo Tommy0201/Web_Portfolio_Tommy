@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function() {
             shortIntro: "Analyzing global data to uncover the relationship between education levels and unemployment rates.",
             intro: "A data science project that seeks to explore potential correlation between education rate and unemployment rate around the world.",
             skills: "Data preprocessing, Data wrangling, Data visualization.",
-            language: "R and code in R studio.",
+            language: "R and R studio.",
             libraries: "dply, ggplot2, tydr, rvest, stringr, plotly.",
             githubLink: "https://github.com/Tommy0201/World-Education-Unemployment",
             imageSrc: "assets/images/projects/data science proj.png"
