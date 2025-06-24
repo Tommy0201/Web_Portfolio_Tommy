@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
             title: "RAG Chatbot",
-            shortIntro: "Upload documents and get instant, AI-personalzied answers based on your own files",
+            shortIntro: "AI-personalized RAG chatbot based on uploaded documents. Computer vision model integrated for image-to-text extraction.",
             intro: "Develop a retrieval-augmented generation chatbot in which users can upload their own documents and ask questions based on the uploaded files. Files are stores as vectorized chunks in a database.",
             skills: "Chatbot Design, Large Language Models, Database System",
             language: "Python, Flask, React.js, HTML, CSS",
@@ -53,16 +53,6 @@ document.addEventListener("DOMContentLoaded", function() {
             imageSrc: "assets/images/projects/cocktailChatbot.png"
         },
         {
-            title: "WeatherApp Forecast",
-            shortIntro: "Accurate weather tracking with location-based updates and 5-day forecasts.",
-            intro: "A simple weather app that shows weather based on location. Also forecast the weather in the next 5 days based on given data.",
-            skills: "Web Scraping, Data Science, LLMs.",
-            language: "Python, Flask, React.js, HTML, CSS",
-            libraries: "OpenWeatherMap API",
-            githubLink: "https://github.com/Tommy0201/Weather_App_TommyNg",
-            imageSrc: "assets/images/projects/weatherApp.png"
-        },
-        {
             title: "Word Education and Unemployment",
             shortIntro: "Analyzing global data to uncover the relationship between education levels and unemployment rates.",
             intro: "A data science project that seeks to explore potential correlation between education rate and unemployment rate around the world.",
@@ -83,6 +73,16 @@ document.addEventListener("DOMContentLoaded", function() {
             githubLink: "https://github.com/Tommy0201/Film_Recommendation_Using_Kmeans",
             imageSrc: "assets/images/projects/film_rec_pic.png"
         },
+        // {
+        //     title: "WeatherApp Forecast",
+        //     shortIntro: "Accurate weather tracking with location-based updates and 5-day forecasts.",
+        //     intro: "A simple weather app that shows weather based on location. Also forecast the weather in the next 5 days based on given data.",
+        //     skills: "Web Scraping, Data Science, LLMs.",
+        //     language: "Python, Flask, React.js, HTML, CSS",
+        //     libraries: "OpenWeatherMap API",
+        //     githubLink: "https://github.com/Tommy0201/Weather_App_TommyNg",
+        //     imageSrc: "assets/images/projects/weatherApp.png"
+        // },
         // {
         //     title: "Villanova University Calories Tracker",
         //     intro: "Allows Villanova Students to track their calories by adding the food to their 'cart'. The cart will display their total calories and macros (protein, carb, fiber). Students can type in their name and have their cart saved in the dropdown menu to the right.",
