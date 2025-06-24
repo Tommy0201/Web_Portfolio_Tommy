@@ -2940,12 +2940,12 @@ outline-offset: 6px;
 */
 
 .container.hobbies-container {
-	--hobbies-txt-color: rgb(254, 238, 206);
+	--hobbies-txt-color: default;
 	--hobbies-txt-color-hov: #f4f4f4;
     max-width: 900px;
     margin: auto;
     position: relative;
-    background-color: rgb(81, 127, 168);
+    background-color: #f4f4f4;
     padding: 40px 20px 80px;
     z-index: 100;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
@@ -2982,7 +2982,7 @@ outline-offset: 6px;
 }
 
 .nav-button:hover {
-	color:  wheat !important;
+	color:  #f4f4f4 !important;
 	background-color:#777777 !important;
 }
 
