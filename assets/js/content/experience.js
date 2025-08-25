@@ -8,7 +8,7 @@ const experiences = [
         tasks: [
             'Created an internal production tool using Spring Boot, ReactJS, and PostgreSQL to automate the debt sale process, eliminating 70+ manual merge requests and saving 100+ hours for engineers annually',
             "Built an aggregated debt sales tab, allow in-place sale modifications, and implemented an audit table to track all changes",
-            "Created an AI tool that match similar Jira tickets and suggest SQL commands to perform Data Change Request - reaching high accuracy, enhanced efficiency for on-call engineers by ~30%",
+            "Created an AI tool that match similar Jira tickets and suggest SQL commands to perform Data Change Request - reaching high accuracy, enhanced efficiency for on-call engineers by ~35%",
 
         ],
         aosDelay: 100,
