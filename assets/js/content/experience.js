@@ -3,13 +3,12 @@ const experiences = [
     {
         title: 'Software Engineer Intern',
         location: 'SoFi',
-        date: '(May, 2025 - Present)',
+        date: '(May, 2025 - Aug, 2025)',
         imageSrc: 'assets/images/work-experience/sofilogo.png',
         tasks: [
-            'Created an internal production tool using Spring Boot, ReactJS, and PostgreSQL to automate the debt sale process, eliminating 70+ manual merge requests and saving 100+ hours for engineers annually',
-            "Built an aggregated debt sales tab, allow in-place sale modifications, and implemented an audit table to track all changes",
-            "Created an AI tool that match similar Jira tickets and suggest SQL commands to perform Data Change Request - reaching high accuracy, enhanced efficiency for on-call engineers by ~35%",
-
+            "Technologies: Java, Spring Boot, ReactJS, PostgreSQL, GraphQL, SourceGraph",
+            "💸 Debt Sales Automation",
+            "🤖 AI-Powered SQL Suggestions"
         ],
         aosDelay: 100,
         aosDuration: 500
@@ -20,8 +19,9 @@ const experiences = [
         date: '(Sep, 2024 - Dec, 2024)',
         imageSrc: 'assets/images/work-experience/ethosapp.png',
         tasks: [
-            'Co-developing the database system for the mobile app for BIPOC-owned small businesses.',
-            "Taking charge of setting up a recommendation system that recommends businesses based on users' background and preference",
+            "Technologies: Python, Pandas, NumPy, Scikit-learn",
+            "🌐 Social Visibility Recommendation System",
+            "🗄️ BIPOC-Owned Businesses Vector Database",
         ],
         aosDelay: 100,
         aosDuration: 500
@@ -32,8 +32,9 @@ const experiences = [
         date: '(May, 2024 - Aug, 2024)',
         imageSrc: 'assets/images/work-experience/olli-maika.png',
         tasks: [
-            'Co-developed the AI voicebot backend with 2 developers using LangGraph and GPT API; developed its prototype using Flask, React, and gRPC and helped secure a partnership with the Malaysian Minister of Education.',
-            'Developed an AI-powered image suggestion feature for a marketing assistant app, leveraging Unsplash API (free image library), DALL-E API, GPT API, and gRPC, resulting in a 25% increase in user engagement.',
+            "Technologies: Python, LangGraph, LangChain, Flask, React, gRPC",
+            "🎙️ Multi-Agent AI Voicebot for Customized Conversations", 
+            "🖼️ Content-Based AI Image Suggestion System",
         ],
         aosDelay: 100,
         aosDuration: 500
@@ -44,9 +45,10 @@ const experiences = [
         date: '(May, 2023 - May 2025)',
         imageSrc: 'assets/images/work-experience/llm-diversity.png',
         tasks: [
-            "Implemented a web scraper using Python's BeautifulSoup and concurrent programming to extract over 2 million data points from sources like BBC and TedTalk, then preprocessed and analyzed the dataset, including 116,884 Igbo and 121,266 Nigerian Pidgin sentences, with 70,000 sentences annotated by native speakers.",
-            "Fine-tuned Large Language Models (ByT5, NLLB, DeltaLM) for Igbo to English translation using benchmark datasets of 700,000 aligned sentence pairs, achieving a 43% BLEU-score improvement.",
-            "Paper published at LoResMT workshop, part of 2025 NAACL conference"
+            "Technologies: Python, Transformer, NLTK, Pandas, BeautifulSoup, Concurrent, HuggingFace",
+            "🤖 Fine-tuned 3 LLMs, +43% BLEU score",
+            "🌍 Built datasets for Nigerian languages",
+            "📄 Paper accepted at LoResMT, NAACL"
         ],
         aosDelay: 100,
         aosDuration: 400
@@ -57,8 +59,8 @@ const experiences = [
         date: '(Jan, 2023 - April, 2023)',
         imageSrc: 'assets/images/work-experience/Text_Differences.png',
         tasks: [
-            "Refined the text-generation of the AMR system, a Natural Language Processing tool, to sound more human-like",
-            "Automated testing over large datasets and analyzed 80,000 sentences using Python, proposed mathematical expression learning to improve the system"
+            "Technologies: Python, NLTK, Pandas, NumPy",
+            "🗣️ AMR System for More Human-Like Text",
         ],
         aosDelay: 100,
         aosDuration: 300
@@ -107,13 +109,19 @@ const createExperienceCard = (experience) => {
     metaP.appendChild(dateSpan);
     header.appendChild(metaP);
 
-    const ol = document.createElement('ol');
+    const ul = document.createElement('ul');
     experience.tasks.forEach(task => {
-        const li = document.createElement('li');
-        li.textContent = task;
-        ol.appendChild(li);
+            const li = document.createElement('li');
+            li.textContent = task;
+            ul.appendChild(li);
     });
-    header.appendChild(ol);
+    header.appendChild(ul);
+
+    // experience.tasks.forEach(task => {
+    // const div = document.createElement('div');
+    // div.textContent = task;
+    // header.appendChild(div);
+    // });
 
     cardBody.appendChild(header);
     cardDiv.appendChild(cardBody);
