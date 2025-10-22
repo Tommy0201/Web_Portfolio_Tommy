@@ -5,9 +5,8 @@ const educationLevels = [
         honors: "",
         scholarship: " Tapia 2024 Conference VU Scholar, Veritas Scholar 2026,  Connelly-Delouvrier Scholar 2025",
         description: 
-        `Hi, I am Minh (Tommy) Nguyen from Vietnam. My passion lies in AI/ML research and full-stack development. 
-         I aspire to use STEM to propel education in under-developed areas. Creating innnovative solutions for students and the community excites me.
-         I am actively seeking a full-time new grad software engineering or data science role for Spring 2026 to continue making an impact.`,
+        `Hi, I am Minh (Tommy) Nguyen from Vietnam. My passion lies in implementing AI-powered, full-stack tools. My dream goal is to found a FinTech or EdTech company, working to improve the lives
+        of people, especially those from under-developed regions. I am a curious learner and an ardent problem-solver who get things done.`,
         color: "#0f437c", 
         images: ["assets/images/education/vu2.jpg", "assets/images/education/vu1.jpg","assets/images/education/badmintonpair.jpg","assets/images/education/vsaexpo.jpg","assets/images/education/VU_Logo.jpg"],
         school: "Villanova University",
