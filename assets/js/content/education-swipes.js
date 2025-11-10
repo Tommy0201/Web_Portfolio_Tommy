@@ -5,7 +5,7 @@ const educationLevels = [
         honors: "",
         scholarship: " Tapia 2024 Conference VU Scholar, Veritas Scholar 2026,  Connelly-Delouvrier Scholar 2025",
         description: 
-        `Hi, I am Minh (Tommy) Nguyen from Vietnam. My passion lies in implementing AI-powered, full-stack tools. My dream goal is to found a FinTech or EdTech company, working to improve the lives
+        `Hi, I am Minh (Tommy) Nguyen. My passion lies in implementing AI-powered, full-stack tools. My dream goal is to found a FinTech or EdTech company, working to improve the lives
         of people, especially those from under-developed regions. I am a curious learner and an ardent problem-solver who get things done.`,
         color: "#0f437c", 
         images: ["assets/images/education/vu2.jpg", "assets/images/education/vu1.jpg","assets/images/education/badmintonpair.jpg","assets/images/education/vsaexpo.jpg","assets/images/education/VU_Logo.jpg"],
