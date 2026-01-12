@@ -1,7 +1,7 @@
 const educationLevels = [
     {
         major: "Honors Degree, Computer Science Major | Business Minor",
-        gpa: "GPA: 3.97 / 4.0",
+        gpa: "GPA: 3.96 / 4.0",
         honors: "",
         scholarship: " Tapia 2024 Conference VU Scholar, Veritas Scholar 2026,  Connelly-Delouvrier Scholar 2025",
         description: 
